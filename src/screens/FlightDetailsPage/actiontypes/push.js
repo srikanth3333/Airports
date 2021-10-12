@@ -1,0 +1,20 @@
+const prefix = 'push'
+
+export const GET_PUSH = `${prefix}/getPush`
+export const GET_PUSH_SUCCEEDED = `${prefix}/getPushSucceeded`
+export const GET_PUSH_FAILED= `${prefix}/getPushFailed`
+export const REGISTER_DEVICE = `${prefix}/registerDevice`
+export const REGISTER_DEVICE_SUCCEEDED = `${prefix}/registerDeviceSucceeded`
+export const REGISTER_DEVICE_FAILED = `${prefix}/registerDeviceFailed`
+export const REGISTER_USER_DEVICE = `${prefix}/registerUserDevice`
+export const REGISTER_USER_DEVICE_SUCCEEDED = `${prefix}/registerUserDeviceSucceeded`
+export const REGISTER_USER_DEVICE_FAILED = `${prefix}/registerUserDeviceFailed`
+export const GET_TOPICS = `${prefix}/getTopics`
+export const GET_TOPICS_SUCCEEDED = `${prefix}/getTopicsSucceeded`
+export const GET_TOPICS_FAILED = `${prefix}/getTopicsFailed`
+export const SUBSCRIBE_TO_TOPIC = `${prefix}/subscribeToTopic`
+export const SUBSCRIBE_TO_TOPIC_SUCCEEDED = `${prefix}/subscribeToTopicSucceeded`
+export const SUBSCRIBE_TO_TOPIC_FAILED = `${prefix}/subscribeToTopicFailed`
+export const UNSUBSCRIBE_FROM_TOPIC = `${prefix}/unSubscribeFromTopic`
+export const UNSUBSCRIBE_TO_TOPIC_SUCCEEDED = `${prefix}/unsubscribeToTopicSucceeded`
+export const UNSUBSCRIBE_TO_TOPIC_FAILED = `${prefix}/unsubscribeToTopicFailed`

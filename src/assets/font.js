@@ -1,0 +1,7 @@
+export const OpenSansBold = 'OpenSans-Bold'
+export const OpenSansLight = 'OpenSans-Light'
+export const OpenSansRegular = 'OpenSans-Regular'
+export const MontserratRegular = 'Montserrat-Regular'
+export const MontserratBold = 'Montserrat-Bold'
+export const CenturyGothicBold = 'CenturyGothic-Bold'
+export const CenturyGothicRegular = 'CenturyGothic-Regular'
